@@ -1,0 +1,19 @@
+.home__section {
+    display: flex;
+    padding: 2vh 50px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+.home__header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .home__section {
+        padding: 2vh 25px;
+    }
+}
