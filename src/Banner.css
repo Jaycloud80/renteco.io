@@ -1,0 +1,122 @@
+.banner {
+    /* height: 50vh; */
+    position: relative;
+    /* background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center center; */
+}
+
+.banner__info {
+    background: rgb(0, 170, 175);
+    background: linear-gradient(90deg, rgba(0, 170, 175, 0.9893876445086706) 26%, rgba(0, 140, 245, 1) 77%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.banner__info svg {
+    fill: white !important;
+}
+
+.banner__info button {
+    /* background-color: #00C7FF; */
+    background-color: #F58A07 !important;
+    border-color: #F58A07 !important;
+
+    color: white;
+    text-transform: inherit;
+    margin-top: 30px;
+    /* font-weight: 600; */
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    /* background-color: white !important; */
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: white !important;
+}
+
+.banner__info>button:hover {
+    /* background-color: #fff;
+    color: #00C7FF; */
+}
+
+.search__wrapper>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    max-width: 1200px;
+}
+
+
+
+.search__wrapper>p {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    max-width: 750px;
+}
+
+.search__bar {
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+    min-width: 500px;
+    /* max-width: fit-content; */
+    height: 30px;
+    padding: 10px;
+    border-radius: 999px;
+    border: 1px solid lightgray;
+    background: white;
+    margin-top: 20px;
+}
+
+.search__bar>input {
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+    width: 100%;
+}
+
+.search__wrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .search__bar {
+        min-width: 200px;
+    }
+
+    .banner__info {
+        padding-top: 4vh;
+        padding-bottom: 5vh;
+    }
+
+    .search__wrapper>h1 {
+        font-size: 30px;
+    }
+
+    .search__wrapper>p {
+        font-size: 16px;
+    }
+
+    .search__wrapper>h1,
+    .search__wrapper>p {
+        max-width: 350px;
+    }
+
+    .banner__info>button {
+        margin-top: 10px;
+    }
+}
