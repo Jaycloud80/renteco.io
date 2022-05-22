@@ -43,12 +43,12 @@
     color: white !important;
 }
 
-.banner__info>button:hover {
-    /* background-color: #fff;
-    color: #00C7FF; */
-}
+/* .banner__info button:hover {
+     background-color: #fff;
+    color: #00C7FF; 
+} */
 
-.search__wrapper>h1 {
+*/ .search__wrapper>h1 {
     color: white;
     text-align: center;
     font-size: 50px;

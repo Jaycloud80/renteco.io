@@ -15,6 +15,8 @@ function Search() {
         navigate("/marketplace");
     }
 
+    
+
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
 
