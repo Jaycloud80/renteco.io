@@ -46,7 +46,7 @@ function Banner({
             id="test-button-secondary-icon-after"
             onClick={handleClick}
             size="large"
-            text="Launch DApp"
+            text="Launch Marketplace"
             theme="secondary"
             type="button"
           />

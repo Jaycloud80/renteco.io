@@ -114,6 +114,7 @@
     .search__wrapper>h1,
     .search__wrapper>p {
         max-width: 350px;
+        text-align: center;
     }
 
     .banner__info>button {

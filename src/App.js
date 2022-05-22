@@ -6,6 +6,7 @@ import Header from './Header'
 import Footer from './Footer'
 // import SearchPage from './SearchPage'
 import MarketPlace from './MarketPlace'
+import FAQ from './FAQ'
 
 import {
   BrowserRouter,
@@ -23,6 +24,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/marketplace" element={<MarketPlace />} />
+            <Route path="/faq" element={<FAQ />} />
             <Route path="/" element={<Home />} />
           </Routes>
           <Footer />

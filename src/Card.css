@@ -5,7 +5,7 @@
     box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
     transition: transform 100ms ease-in;
     cursor: pointer;
-    flex: 0 1 calc(25% - 20px);
+    flex: 0 1 calc(33% - 20px);
 }
 
 .card:hover {
@@ -22,9 +22,13 @@
 .card__info {
     margin-top: -9px;
     border-radius: 10px;
-    padding: 20px;
-    padding-top: 20px;
+    padding: 20px 20px 20px;
     border: 1;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .card__info>h2 {
@@ -39,9 +43,26 @@
     margin-bottom: 8px;
 }
 
+.card__info button {
+    margin-top: 20px;
+    color: #F58A07;
+    border-color: #F58A07;
+    padding-left: 0;
+    position: relative;
+    margin-top: auto;
+    bottom: 0px;
+
+}
+
+.card__info button svg {
+    fill: #F58A07;
+    margin-left: 4px;
+}
+
 @media screen and (max-width: 600px) {
     .card {
         flex: 0 1 calc(100% - 20px);
         display: flex;
+        flex-direction: column;
     }
 }
